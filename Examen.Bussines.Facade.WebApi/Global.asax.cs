@@ -29,6 +29,7 @@ namespace Examen.Bussines.Facade.WebApi
 		/// </summary>
 		protected void Application_Start()
         {
+			logger.Debug(System.Reflection.MethodBase.GetCurrentMethod().Name);
 			var container = AutofacConfiguration.Build(Assembly.GetExecutingAssembly());
 
 			GlobalConfiguration.Configuration.DependencyResolver = new AutofacWebApiDependencyResolver(container);
@@ -36,10 +37,9 @@ namespace Examen.Bussines.Facade.WebApi
             GlobalConfiguration.Configure(WebApiConfig.Register);
 
 			var getData = container.Resolve<IGetData>();
-			var dataRates = getData.GetDataRates();
-			logger.Debug(dataRates + System.Reflection.MethodBase.GetCurrentMethod().Name);
-			var dataTrans = getData.GetDataTrans();
-			logger.Debug(dataTrans + System.Reflection.MethodBase.GetCurrentMethod().Name);
+			getData.GetDataRates();
+			getData.GetDataTrans();
+			
 
 
 		}

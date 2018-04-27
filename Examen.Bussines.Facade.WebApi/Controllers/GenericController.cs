@@ -19,25 +19,25 @@ namespace Examen.Bussines.Facade.WebApi.Controllers
     public class GenericController : ApiController
     {
         private readonly IDataRatesBl dataRatesBl;
-        private readonly IDataTransBl dataTransBl;
+        private readonly IDataTransBusinessLogic dataTransBl;
 		private readonly ISetRedis setRedis;
 		private readonly IGetRedis getRedis;
 		private readonly ILogger logger = Log4NetConfiguration.CreateInstanceClassLog(MethodBase.GetCurrentMethod().DeclaringType);
 		private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         
 
-        public GenericController(IDataRatesBl dataRatesBl, IDataTransBl dataTransBl, ISetRedis setRedis, IGetRedis getRedis)
+        public GenericController(IDataRatesBl dataRatesBl, IDataTransBusinessLogic dataTransBl, ISetRedis setRedis, IGetRedis getRedis)
         {
             this.dataRatesBl = dataRatesBl;
 			this.dataTransBl = dataTransBl;
 			this.setRedis = setRedis;
 			this.getRedis = getRedis;
         }
-        /// <summary>
-		/// 
+		/// <summary>
+		/// Get Data from webapi external, but failed connection Get Data from redis
 		/// </summary>
-		/// <returns></returns>
-        [HttpGet()]
+		/// <returns>json</returns>
+		[HttpGet()]
         public IHttpActionResult GetRates()
         {
             logger.Debug(Resources.ResourcesLog.EnterFunction + System.Reflection.MethodBase.GetCurrentMethod().Name);
@@ -55,15 +55,16 @@ namespace Examen.Bussines.Facade.WebApi.Controllers
 			}
 			
         }
-        /// <summary>
-		/// 
+		/// <summary>
+		/// Get Data from webapi external, but failed connection Get Data from redis
 		/// </summary>
-		/// <returns></returns>
+		/// <returns>json</returns>
         [HttpGet()]
         public IHttpActionResult GetTrans()
         {
 			try
 			{
+				logger.Debug(System.Reflection.MethodBase.GetCurrentMethod().Name);
 				var data = this.dataTransBl.GetDataTrans();
 				setRedis.AddTrans(data.Result, Resources.ResourcesLog.keyTrans);
 				return Ok(data);
@@ -74,11 +75,6 @@ namespace Examen.Bussines.Facade.WebApi.Controllers
 				return Ok(getRedis.GetTrans(Resources.ResourcesLog.keyTrans));
 			}
 		}
-		/// <summary>
-		/// 
-		/// </summary>
-		/// <param name="dataRates"></param>
-		/// <returns></returns>
 		
 	}
 }

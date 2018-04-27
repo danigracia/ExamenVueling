@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigurationTools.cs" />
-    <Compile Include="DataRates.cs" />
+    <Compile Include="Models\DataRates.cs" />
     <Compile Include="LoggerAdapter\Log4NetConfiguration.cs" />
     <Compile Include="LoggerAdapter\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,7 +54,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ResourcesLog.resx</DependentUpon>
     </Compile>
-    <Compile Include="DataTrans.cs" />
+    <Compile Include="Models\DataTrans.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Examen.Business.Contract.Logic
 {
-	public interface IDataTransBl
+	public interface IDataTransBusinessLogic
 	{
 		Task<List<DataTrans>> GetDataTrans();
 		List<DataTrans> SetDataTrans(List<DataTrans> dataTrans, string key);

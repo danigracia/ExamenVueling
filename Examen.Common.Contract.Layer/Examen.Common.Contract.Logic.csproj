@@ -40,9 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IDataRates.cs" />
-    <Compile Include="IDataTrans.cs" />
-    <Compile Include="LoggerAdapter\ILogger.cs" />
+    <Compile Include="Interfaces\Model\IDataRates.cs" />
+    <Compile Include="Interfaces\Model\IDataTrans.cs" />
+    <Compile Include="Interfaces\LoggerAdapter\ILogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

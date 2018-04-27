@@ -58,6 +58,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Examen.Common.Contract.Layer\Examen.Common.Contract.Logic.csproj">
+      <Project>{8BBBC285-927A-49E0-ACD7-CC12E3B21643}</Project>
+      <Name>Examen.Common.Contract.Logic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Examen.Common.Logic\Examen.Common.Logic.csproj">
       <Project>{FC165D66-E5FC-4E3B-9CA2-CDD5A1857973}</Project>
       <Name>Examen.Common.Logic</Name>

@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IDataTransBl.cs" />
-    <Compile Include="IDataRatesBl.cs" />
+    <Compile Include="Interfaces\IDataTransBusinessLogic.cs" />
+    <Compile Include="Interfaces\IDataRatesBusinessLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

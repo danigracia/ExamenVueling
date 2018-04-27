@@ -23,11 +23,11 @@ namespace Examen.Bussines.Facade.WebApi.App_Start
 				.RegisterApiControllers(apiAssembly);
 
 			builder
-				.RegisterType<DataRatesBl>()
+				.RegisterType<DataRatesBusinessLogic>()
 				.As<IDataRatesBl>();
 			builder
-				.RegisterType<DataTransBl>()
-				.As<IDataTransBl>();
+				.RegisterType<DataTransBusinessLogic>()
+				.As<IDataTransBusinessLogic>();
 
 
 			builder.RegisterModule(new CommonBuilder());

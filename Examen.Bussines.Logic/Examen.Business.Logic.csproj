@@ -43,14 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataTransBl.cs" />
+    <Compile Include="DataTransBusinessLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DataRatesBl.cs" />
+    <Compile Include="DataRatesBusinessLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Examen.Business.Contract.Logic\Examen.Business.Contract.Logic.csproj">
       <Project>{3AB4F97C-B2E9-468B-876E-C3523DC72921}</Project>
       <Name>Examen.Business.Contract.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Examen.Common.Contract.Layer\Examen.Common.Contract.Logic.csproj">
+      <Project>{8BBBC285-927A-49E0-ACD7-CC12E3B21643}</Project>
+      <Name>Examen.Common.Contract.Logic</Name>
     </ProjectReference>
     <ProjectReference Include="..\Examen.Common.Logic\Examen.Common.Logic.csproj">
       <Project>{fc165d66-e5fc-4e3b-9ca2-cdd5a1857973}</Project>
