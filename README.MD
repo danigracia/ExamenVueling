@@ -1,8 +1,9 @@
 # Examen Vueling Daniel Gracia
-13:30 - La persistencia de datos esta echa, la logica aun no.
+
 ## Introducción
 El proyecto se basa en una web api que recibe datos de otra web api y los trata para dar unos resultados. En este proyecto utilizaremos 
 * Redis para la persistencia.
+* Solid.
 * WebApi de forma sincrona.
 * AutoFac integrado con webapi.
 * Versionado de API.
@@ -36,5 +37,7 @@ Para debuggar en un archivo de logs la traza de todo el recorrido de la aplicaci
 
 ## Recursos
 Archivos de recursos para agregar mensajes personalizados al log por ejemplo.
+
+
 
 
