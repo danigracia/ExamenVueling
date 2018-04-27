@@ -1,0 +1,2 @@
+2018-04-27 13:08:40,445 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Examen.Common.Logic.DataRates]]Application_Start
+2018-04-27 13:08:41,932 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Examen.Common.Logic.DataTrans]]Application_Start
