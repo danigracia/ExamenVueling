@@ -10,7 +10,7 @@ namespace Examen.Common.Logic
     public class DataTrans : IDataTrans
     {
         public string Sku { get; set; }
-        public string Amount { get; set; }
+        public decimal Amount { get; set; }
         public string Currency { get; set; }
 
 

@@ -1,17 +1,17 @@
-2018-04-27 16:44:23,923 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -Application_Start
-2018-04-27 16:44:24,575 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -MoveNext
-2018-04-27 16:44:25,257 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -MoveNext
-2018-04-27 16:44:44,844 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -.ctor
-2018-04-27 16:44:44,850 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -.ctor
-2018-04-27 16:44:44,887 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -Function enterGetRates
-2018-04-27 16:44:44,889 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetDataRates
-2018-04-27 16:44:44,891 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -MoveNext
-2018-04-27 16:44:45,135 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -AddRates
-2018-04-27 16:44:45,169 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetRates
-2018-04-27 16:44:51,967 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -.ctor
-2018-04-27 16:44:51,969 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -.ctor
-2018-04-27 16:44:51,972 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetTrans
-2018-04-27 16:44:51,974 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetDataTrans
-2018-04-27 16:44:51,976 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -MoveNext
-2018-04-27 16:44:53,162 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -AddTrans
-2018-04-27 16:44:53,174 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetTrans
+2018-04-27 17:04:12,156 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -Application_Start
+2018-04-27 17:04:12,599 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -MoveNext
+2018-04-27 17:04:13,438 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -MoveNext
+2018-04-27 17:04:28,793 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -.ctor
+2018-04-27 17:04:28,800 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -.ctor
+2018-04-27 17:04:28,833 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -Function enterGetRates
+2018-04-27 17:04:28,835 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetDataRates
+2018-04-27 17:04:28,837 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -MoveNext
+2018-04-27 17:04:29,091 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -AddRates
+2018-04-27 17:04:29,113 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetRates
+2018-04-27 17:04:38,238 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -.ctor
+2018-04-27 17:04:38,239 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -.ctor
+2018-04-27 17:04:38,242 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetTrans
+2018-04-27 17:04:38,244 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetDataTrans
+2018-04-27 17:04:38,247 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -MoveNext
+2018-04-27 17:04:39,613 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -AddTrans
+2018-04-27 17:04:39,625 DEBUG Examen.Common.Logic.LoggerAdapter.Logger Debug -GetTrans

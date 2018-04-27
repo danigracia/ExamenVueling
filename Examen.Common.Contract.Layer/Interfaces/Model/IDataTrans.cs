@@ -9,7 +9,7 @@ namespace Examen.Common.Contract.Logic
     public interface IDataTrans
     {
 		string Sku { get; set; }
-		string Amount { get; set; }
+		decimal Amount { get; set; }
 		string Currency { get; set; }
 	}
 }

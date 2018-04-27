@@ -10,6 +10,6 @@ namespace Examen.Common.Contract.Layer
 	{
 		string From { get; set; }
 		string To { get; set; }
-		string Rate { get; set; }
+		decimal Rate { get; set; }
 	}
 }
