@@ -33,11 +33,16 @@ porque te da un listado de todos los metodos del controlador, en caso de tener v
 puedes hacer pruebas con los metodos desde su interfaz web.
 
 ## Log4net
-Para debuggar en un archivo de logs la traza de todo el recorrido de la aplicación y si surge algun fallo que quede registrado.
+Para realizar el log en un archivo de logs la traza de todo el recorrido de la aplicación y si surge algun fallo que quede registrado.
 
 ## Recursos
 Archivos de recursos para agregar mensajes personalizados al log por ejemplo.
 
+## Logica 
+No me ha dado tiempo a realizarla, pero si la he planteado. Cuando yo recibo los datos del Rates, el patron se basa en:
+primer que siempre tienes 4 tipos de monedas diferentes. La primera conversión siempre es de Moneda 1 a Moneda 2, la segunda de Moneda 2 a Moneda 1, la tercera de la Moneda 1 a la Moneda 3,  la cuarta de la Moneda 3 a la Moneda 1, la quinta de la Moneda 2 a la Moneda 4, y la ultima de Moneda 4 a la Moneda 2.
+  
+El calculo de la propina es multiplicar el amount por 0.05. Luego ya utilizar el patron de conversion.
 
 
 
